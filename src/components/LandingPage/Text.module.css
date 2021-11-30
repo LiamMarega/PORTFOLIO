@@ -1,0 +1,9 @@
+@font-face {
+  font-family: textLiam;
+  src: url(../Fuentes/CandyBeans.otf);
+}
+
+.text {
+  font-family: "textLiam";
+}
+/*# sourceMappingURL=Text.module.css.map */

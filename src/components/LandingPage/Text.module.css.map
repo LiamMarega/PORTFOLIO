@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,UAAU;EACT,WAAW,EAAE,QAAQ;EACrB,GAAG,EAAE,8BAA8B;;;AAGpC,AAAA,KAAK,CAAA;EACJ,WAAW,EAAE,UAAU;CAEvB",
+    "sources": [
+        "Text.module.scss"
+    ],
+    "names": [],
+    "file": "Text.module.css"
+}
