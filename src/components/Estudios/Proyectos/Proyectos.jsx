@@ -11,13 +11,6 @@ function Proyectos() {
             <span>APP DOG</span>
           </div>
         </a>
-
-        <a target="_blank" href="https://pomodoroclock-liammarega.netlify.app">
-          <div className="box">
-            <img src="https://alifeofproductivity.com/wp-content/uploads/2013/04/6969282632_bc5249a9a6_b.jpg" />
-            <span>POMODORO CLOCK</span>
-          </div>
-        </a>
         <a target="_blank" href="https://pomodoroclock-liammarega.netlify.app">
           <div className="box">
             <img src="https://roiwiz.com/wp-content/uploads/2020/01/online-education-platform-concept.jpg" />
@@ -25,6 +18,12 @@ function Proyectos() {
           </div>
         </a>
         <a target="_blank" href="https://pomodoroclock-liammarega.netlify.app">
+          <div className="box">
+            <img src="https://alifeofproductivity.com/wp-content/uploads/2013/04/6969282632_bc5249a9a6_b.jpg" />
+            <span>POMODORO CLOCK</span>
+          </div>
+        </a>
+        <a target="_blank" href="https://wheaterapp-liammarega.netlify.app">
           <div className="box">
             <img src="https://www.on24.com.ar/wp-content/uploads/2021/10/Clima.gif" />
             <span>WHEATER APP</span>

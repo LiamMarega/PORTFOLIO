@@ -4,7 +4,10 @@ import "animate.css";
 import Particles from "./Particles/Particles";
 import Estudios from "../Estudios/Estudios";
 
+
+
 function About() {
+
   return (
     <div className={s.About}>
       <div className={s.textoPresentacion}>
