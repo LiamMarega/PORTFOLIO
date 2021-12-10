@@ -36,7 +36,7 @@
 
 @media screen and (max-width: 600px) {
     .Estudios {
-  height: 85vh;
+  height: 90vh;
   width: 80vh;
   background: #c5c5c5;
   display: -ms-grid;

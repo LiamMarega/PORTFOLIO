@@ -6,4 +6,30 @@
 .text {
   font-family: "textLiam";
 }
+
+@keyframes textLiam {
+  from{
+    opacity: 0;
+
+  }
+
+  to { 
+    opacity: 1;
+  }
+}
+
+.imagen {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  animation-name: textLiam;
+  animation-duration: 60s;
+}
+
+.imagen img {
+  width: 30px;
+}
+
 /*# sourceMappingURL=Text.module.css.map */

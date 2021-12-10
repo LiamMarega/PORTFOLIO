@@ -4,9 +4,14 @@
   src: url(../Fuentes/MODERN.TTF);
 }
 
+@keyframes opacidad {
+  from {opacity: 0;}
+  to{ opacity: 1; }
+}
+
 .About {
   width: 100%;
-  height: 85vh;
+  height: 80vh;
   background: #d9d9d9;
   display: -ms-grid;
   display: grid;
@@ -31,6 +36,8 @@
   height: 100%;
   font-size: 2vh;
   margin-left: 2vh;
+  animation-name: opacidad;
+  animation-duration: 8s;
 }
 
 .especificaciones > img {
@@ -50,6 +57,8 @@
   -ms-flex-align: center;
   align-items: center;
   margin-top: 15vh;
+  opacity: 1;
+  transition: all 0.5s;
 }
 
 .especificaciones > h2 {
@@ -62,6 +71,8 @@
   height: 100%;
   font-size: 2vh;
   margin-left: 2vh;
+  animation-name: opacidad;
+  animation-duration: 8s;
 }
 
 .experiencias > h2 {
