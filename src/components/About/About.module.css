@@ -5,13 +5,17 @@
 }
 
 @keyframes opacidad {
-  from {opacity: 0;}
-  to{ opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .About {
   width: 100%;
-  height: 80vh;
+  height: 90vh;
   background: #d9d9d9;
   display: -ms-grid;
   display: grid;
@@ -22,6 +26,8 @@
 }
 
 .container {
+  margin: 30px;
+  width: 80%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 50% 50%;
@@ -109,6 +115,7 @@
   border-radius: 10px;
   overflow: hidden;
   padding: 3rem;
+  margin: 30px;
 }
 
 .rainbow::before {
@@ -156,7 +163,7 @@
 @media screen and (max-width: 600px) {
   .About {
     width: 80vh;
-    height: 150vh;
+    height: 180vh;
     background: #d9d9d9;
     display: -ms-grid;
     display: grid;

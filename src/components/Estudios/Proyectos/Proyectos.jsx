@@ -11,7 +11,7 @@ function Proyectos() {
             <span>APP DOG</span>
           </div>
         </a>
-        <a target="_blank" href="https://pomodoroclock-liammarega.netlify.app">
+        <a target="_blank" href="https://rocketprojectarg.netlify.app">
           <div className="box">
             <img src="https://roiwiz.com/wp-content/uploads/2020/01/online-education-platform-concept.jpg" />
             <span>EDUCATIONAL PLATFORM</span>

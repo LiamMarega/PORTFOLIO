@@ -1,9 +1,8 @@
-
 import React from "react";
-import s from "./ContactForm.module.css"
-function ContactForm() {
+import s from "./ContactForm.module.css";
+import cv from "./cv.pdf";
 
-  
+function ContactForm() {
   return (
     <div className={s.bodyContact}>
       <div className={s.Contact}>
@@ -58,7 +57,13 @@ function ContactForm() {
             height="40"
           />
         </a>
+        <br /> <br />
       </div>
+        <div className={s.containerCv}>
+          <a href={cv} download="Cv Liam Marega.pdf">
+            Descargar CV
+          </a>
+        </div>
     </div>
   );
 }
