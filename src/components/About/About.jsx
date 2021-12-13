@@ -31,8 +31,8 @@ function About() {
               <li>Manejo de lenguajes de programación </li>
             </ul>
             <p>
-              Javascript, Git, React.js, Redux, HTML, CSS, NodeJs,
-              Express, Postman, PostgreSQL, Sequelize, Webpack, Babel
+              Javascript, Git, React.js, Redux, HTML, CSS, NodeJs, Express,
+              Postman, PostgreSQL, Sequelize, Webpack, Babel
             </p>
             <img
               src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
@@ -105,20 +105,23 @@ function About() {
         </div>
         <div className={s.rainbow}>
           <div className={s.experiencias}>
-            <h2>Experiencias</h2>
+            <h2>Estudios</h2>
             <hr />
-            <h3>Desarrollador Front-end/Back-end</h3>
-            <ul>
-              <li>APP de razas de Perros con API y Base de Datos</li>
-              <li>Pagina Web del Clima</li>
-              <li>Temporizador Pomodoro</li>
-            </ul>
+            <h2>Desarrollador Full Stack</h2>
+            <h4>SoyHenry</h4>
+            <p>
+              Curso intensivo de desarrollo web iniciado en Julio de 2021 con
+              +900hs y diversos proyuectos realizados a lo largo del bootcamp.
+            </p>
             <hr />
-            <h3>Gestion Y Marketing de redes sociales</h3>
+            <h2>ing. en informática</h2>
+            <h4>Universidad Nacional del Litoral</h4>
+            <p>Cursante de ingenieria en informatica 2021</p>
             <ul>
-              <li>@EmpresasSoluciones</li>
-              <li>@Am.Refrigeracion</li>
-              <li>@MasterLabParana</li>
+              <li>Fundamentos de la Programación C++</li>
+              <li>Matemática Básica.</li>
+              <li>Química General.</li>
+              <li>Comunicación electrónica (Excel y Word).</li>
             </ul>
           </div>
         </div>
