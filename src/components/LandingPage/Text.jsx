@@ -1,6 +1,7 @@
 import React from "react";
 import s from "./Text.module.css";
 import foto from "./flecha.png";
+import { Link } from "react-scroll"
 
 function Text() {
   return (
@@ -10,7 +11,10 @@ function Text() {
       &mdash; Full Stack Developer &mdash;
       <br />
       <div className={s.imagen}>
-        <img src={foto} alt="flecha" />
+        <Link to="aboutID" smooth={true} duration={1500}>
+          {" "}
+          <img src={foto} alt="flecha" />{" "}
+        </Link>
       </div>
     </div>
   );
