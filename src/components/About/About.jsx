@@ -9,7 +9,7 @@ import Estudios from "../Estudios/Estudios";
 function About() {
 
   return (
-    <div className={s.About}>
+    <div id="aboutID" className={s.About}>
       <div className={s.textoPresentacion}>
         <div className={s.textoCentrado}>
           <h3 className="animate__jello">
