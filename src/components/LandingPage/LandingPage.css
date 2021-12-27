@@ -5,6 +5,7 @@
           animation: gradient 15s ease infinite;
   height: 85vh;
   width: 100%;
+  z-index: 2;
 }
 
 @-webkit-keyframes gradient {

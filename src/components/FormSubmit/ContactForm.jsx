@@ -1,7 +1,7 @@
 import React from "react";
 import s from "./ContactForm.module.css";
 import cv from "./cv.pdf";
-
+import Redes from "./Redes/Redes.jsx"
 function ContactForm() {
   return (
     <div className={s.bodyContact}>
@@ -33,31 +33,7 @@ function ContactForm() {
         <input type="submit" value="SUBMIT" />
       </form>
       <div className={s.imgContacts}>
-        <a target="_blank" href="https://www.linkedin.com/in/liam-marega/">
-          <img
-            src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
-            alt="html5"
-            width="40"
-            height="40"
-          />
-        </a>
-        <a target="_blank" href="https://github.com/LiamMarega">
-          <img
-            src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
-            alt="html5"
-            width="40"
-            height="40"
-          />
-        </a>
-        <a target="_blank" href="mailto:liammarega85@gmail.com">
-          <img
-            src="http://cdn.onlinewebfonts.com/svg/img_237869.png"
-            alt="html5"
-            width="40"
-            height="40"
-          />
-        </a>
-        <br /> <br />
+        <Redes />
       </div>
         <div className={s.containerCv}>
           <a href={cv} download="Cv Liam Marega.pdf">
