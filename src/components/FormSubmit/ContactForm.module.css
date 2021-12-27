@@ -1,13 +1,73 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 .bodyContact {
- background: #C5C5C5;
+ background: #c5c5c5;
     width: 100%;
     height: 100vh;
     display: grid;
     align-items: center;
     justify-content: center;
     justify-items: center;
+}
+
+.containerCv a {
+  text-decoration: none;
+  border: 3px solid #cc6666;
+  color: transparent;
+  padding: 5px px;
+  font-size: 28px;
+  font-family: sans-serif;
+  letter-spacing: 5px;
+  transition: all 0.5s;
+  position: relative;
+}
+.containerCv a:before {
+  content: "Descargar CV";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #cc6666;
+  background: rgb(34, 34, 34);
+  font-size: 28px;
+  top: 0;
+  left: 100%;
+  font-family: sans-serif;
+  letter-spacing: 5px;
+  transition: all 1s;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transform: scale(0) rotatey(0);
+  opacity: 0;
+}
+.containerCv a:hover:before {
+  transform: scale(1) rotatey(360deg);
+  left: 0;
+  opacity: 1;
+}
+.containerCv a:after {
+  content: "Descargar CV";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #cc6666;
+  background: rgb(34, 34, 34);
+  font-size: 28px;
+  top: 0;
+  left: 0;
+  font-family: sans-serif;
+  letter-spacing: 5px;
+  transition: all 1s;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transform: scale(1) rotatey(0);
+  opacity: 1;
+}
+.containerCv a:hover:after {
+  transform: scale(0) rotatey(360deg);
+  left: -100%;
+  opacity: 0;
 }
 
 
@@ -37,7 +97,7 @@ form {
 }
 
 .feedback-input:focus {
-  border: 2px solid #cc4949;
+  border: 2px solid #cc6666;
 }
 
 textarea {
@@ -151,15 +211,4 @@ textarea {
   margin: 20px;
 
 }
-}
-
-.containerCv {
-  width: 100px;
-  height: 50px;
-  background-color: rgb(129, 129, 255);
-  display: flex;
-   align-items: center;
-    justify-content: center;
-    justify-items: center;
-
 }

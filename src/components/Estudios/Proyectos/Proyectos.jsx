@@ -5,6 +5,9 @@ import fotoPomodoro from "./images/2.png";
 import fotoRocket from "./images/3.png";
 import fotoPerro from "./images/4.png";
 
+function onClick(e) {
+  alert("Proyecto aun no Deployado :(")
+}
 
 function Proyectos() {
   return (
@@ -16,7 +19,7 @@ function Proyectos() {
             <span>EDUCATIONAL PLATFORM</span>
           </div>
         </a>
-        <a target="_blank" href="https://pomodoroclock-liammarega.netlify.app">
+        <a href="#" onClick={() => onClick()}>
           <div className="box">
             <img src={fotoPerro} />
             <span>APP DOG</span>
