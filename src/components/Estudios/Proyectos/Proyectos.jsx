@@ -34,7 +34,7 @@ function Proyectos() {
         <a target="_blank" href="https://wheaterapp-liammarega.netlify.app">
           <div className="box">
             <img src={fotoClima} />
-            <span>WHEATER APP</span>
+            <span>WEATHER APP</span>
           </div>
         </a>
       </div>
