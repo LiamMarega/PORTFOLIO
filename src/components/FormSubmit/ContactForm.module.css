@@ -1,20 +1,20 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 .bodyContact {
- background: #c5c5c5;
-    width: 100%;
-    height: 100vh;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
+  background: #c5c5c5;
+  width: 100%;
+  height: 100 vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
 }
 
 .containerCv a {
   text-decoration: none;
   border: 3px solid #cc6666;
   color: transparent;
-  padding: 5px px;
   font-size: 28px;
   font-family: sans-serif;
   letter-spacing: 5px;
@@ -70,12 +70,8 @@
   opacity: 0;
 }
 
-
-
 form {
   max-width: 420px;
-  margin: 50px auto;
-  
 }
 
 .feedback_input {
@@ -93,7 +89,7 @@ form {
   width: 100%;
   box-sizing: border-box;
   outline: 0;
-  color: #757575
+  color: #757575;
 }
 
 .feedback-input:focus {
@@ -104,7 +100,7 @@ textarea {
   height: 150px;
   line-height: 150%;
   resize: none;
-  color: #757575
+  color: #757575;
 }
 
 [type="submit"] {
@@ -119,170 +115,156 @@ textarea {
   padding-top: 10px;
   padding-bottom: 10px;
   transition: all 0.3s;
-  margin-top: -4px;
   font-weight: 700;
 }
 [type="submit"]:hover {
   background: #cc4949;
 }
 
-.imgContacts{
+.imgContacts {
   display: flex;
-
 }
 
-.imgContacts , img{
-  margin: 20px;
-
-}
-
-
 /* ///////////////////////// MEDIA QUERY //////////////////////////////// */
 /* ///////////////////////// MEDIA QUERY //////////////////////////////// */
 /* ///////////////////////// MEDIA QUERY //////////////////////////////// */
 /* ///////////////////////// MEDIA QUERY //////////////////////////////// */
 /* ///////////////////////// MEDIA QUERY //////////////////////////////// */
 /* ///////////////////////// MEDIA QUERY //////////////////////////////// */
-
-
 
 @media (max-width: 800px) {
   .bodyContact {
- background: #c5c5c5;
+    background: #c5c5c5;
     width: 100%;
-    height: 100%;
-    display: grid;
-    align-items: center;
+    height: 140%;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
     justify-content: center;
-    justify-items: center;
-}
+    align-items: center;
+  }
 
-.containerCv a {
-  text-decoration: none;
-  border: 3px solid #cc6666;
-  color: transparent;
-  padding: 5px px;
-  font-size: 28px;
-  font-family: sans-serif;
-  letter-spacing: 5px;
-  transition: all 0.5s;
-  position: relative;
-}
-.containerCv a:before {
-  content: "Descargar CV";
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #cc6666;
-  background: rgb(34, 34, 34);
-  font-size: 28px;
-  top: 0;
-  left: 100%;
-  font-family: sans-serif;
-  letter-spacing: 5px;
-  transition: all 1s;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  transform: scale(0) rotatey(0);
-  opacity: 0;
-}
-.containerCv a:hover:before {
-  transform: scale(1) rotatey(360deg);
-  left: 0;
-  opacity: 1;
-}
-.containerCv a:after {
-  content: "Descargar CV";
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #cc6666;
-  background: rgb(34, 34, 34);
-  font-size: 28px;
-  top: 0;
-  left: 0;
-  font-family: sans-serif;
-  letter-spacing: 5px;
-  transition: all 1s;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  transform: scale(1) rotatey(0);
-  opacity: 1;
-}
-.containerCv a:hover:after {
-  transform: scale(0) rotatey(360deg);
-  left: -100%;
-  opacity: 0;
-}
+  .containerCv a {
+    text-decoration: none;
+    border: 3px solid #000000;
+    color: transparent;
+    font-size: 28px;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    transition: all 0.5s;
+    position: relative;
+  }
+  .containerCv a:before {
+    content: "Descargar CV";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    background: rgb(34, 34, 34);
+    font-size: 28px;
+    top: 0;
+    left: 100%;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    transition: all 1s;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transform: scale(0) rotatey(0);
+    opacity: 0;
+  }
+  .containerCv a:hover:before {
+    transform: scale(1) rotatey(360deg);
+    left: 0;
+    opacity: 1;
+  }
+  .containerCv a:after {
+    content: "Descargar CV";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #cc6666;
+    background: rgb(34, 34, 34);
+    font-size: 28px;
+    top: 0;
+    left: 0;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    transition: all 1s;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transform: scale(1) rotatey(0);
+    opacity: 1;
+  }
+  .containerCv a:hover:after {
+    transform: scale(0) rotatey(360deg);
+    left: -100%;
+    opacity: 0;
+  }
 
+  form {
+    max-width: 420px;
+    margin: 50px auto;
+    height: 10%;
+    width: 80%;
+  }
 
+  .feedback_input {
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border: 2px solid #cc6666;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
+    color: #757575;
+  }
 
-form {
-  max-width: 420px;
-  margin: 50px auto;
-  height: 10%;
-  width: 80%;
-  
-}
+  .feedback-input:focus {
+    border: 2px solid #cc6666;
+  }
 
-.feedback_input {
-  color: white;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: 500;
-  font-size: 18px;
-  border-radius: 5px;
-  line-height: 22px;
-  background-color: transparent;
-  border: 2px solid #cc6666;
-  transition: all 0.3s;
-  padding: 13px;
-  margin-bottom: 15px;
-  width: 100%;
-  box-sizing: border-box;
-  outline: 0;
-  color: #757575
-}
+  textarea {
+    height: 150px;
+    line-height: 150%;
+    resize: none;
+    color: #757575;
+  }
 
-.feedback-input:focus {
-  border: 2px solid #cc6666;
-}
+  [type="submit"] {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    width: 100%;
+    background: #cc6666;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 700;
+  }
+  [type="submit"]:hover {
+    background: #cc4949;
+  }
 
-textarea {
-  height: 150px;
-  line-height: 150%;
-  resize: none;
-  color: #757575
-}
+  .imgContacts {
+    display: flex;
+  }
 
-[type="submit"] {
-  font-family: "Montserrat", Arial, Helvetica, sans-serif;
-  width: 100%;
-  background: #cc6666;
-  border-radius: 5px;
-  border: 0;
-  cursor: pointer;
-  color: white;
-  font-size: 24px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  transition: all 0.3s;
-  margin-top: -4px;
-  font-weight: 700;
-}
-[type="submit"]:hover {
-  background: #cc4949;
-}
-
-.imgContacts{
-  display: flex;
-
-}
-
-.imgContacts , img{
-  margin: 20px;
-
-}
-
+  .imgContacts,
+  img {
+    margin: 20px;
+  }
 }

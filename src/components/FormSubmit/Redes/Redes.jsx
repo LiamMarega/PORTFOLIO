@@ -32,7 +32,7 @@ function Redes() {
             </span>
           </div>
         </a>
-        <a href="mailto:liammarega85@gmail.com">
+        <a target="_blank" href="mailto:liammarega85@gmail.com">
           <div className="icon youtube">
             <div className="tooltip">Mail</div>
             <img
