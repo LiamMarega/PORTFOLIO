@@ -240,7 +240,7 @@
   }
 
   .textoPresentacion {
-    font-size: 150%;
+    font-size: 100%;
     width: 80%;
     height: 20%;
     display: grid;
@@ -255,19 +255,19 @@
 
   .especificaciones > h2 {
     font-family: "textoAbout";
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .experiencias {
     width: 100%;
     height: 100%;
-    font-size: 2vh;
+    font-size: 1.5vh;
     margin-left: 2vh;
   }
 
   .experiencias > h2 {
     font-family: "textoAbout";
-    font-size: 30px;
+    font-size: 20px;
   }
 
   *,
@@ -404,7 +404,7 @@
   .especificaciones {
     width: 100%;
     height: 100%;
-    font-size: 2vh;
+    font-size: 1.8vh;
     margin-left: 2vh;
   }
 
@@ -425,19 +425,19 @@
 
   .especificaciones > h2 {
     font-family: "textoAbout";
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .experiencias {
     width: 100%;
     height: 100%;
-    font-size: 2vh;
+    font-size: 1.5vh;
     margin-left: 2vh;
   }
 
   .experiencias > h2 {
     font-family: "textoAbout";
-    font-size: 30px;
+    font-size: 20px;
   }
 
   *,

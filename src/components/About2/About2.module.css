@@ -211,7 +211,7 @@
   }
 
   .textoPresentacion {
-    font-size: 200%;
+    font-size: 100%;
     width: 50vh;
     height: 20%;
     display: grid;
@@ -226,7 +226,7 @@
 
   .especificaciones > h2 {
     font-family: "textoAbout";
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .experiencias {
