@@ -35,10 +35,10 @@
 }
 /*# sourceMappingURL=Estudios.module.css.map */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .Estudios {
     height: 90vh;
-    width: 80vh;
+    width: 100vh;
     background: #c5c5c5;
     display: -ms-grid;
     display: grid;
