@@ -1,21 +1,12 @@
 import React from "react";
-import s from "./Text.module.css";
-import foto from "./flecha.png";
-import { Link } from "react-scroll"
+import "./Text.css";
 
 function Text() {
   return (
-    <div className={s.text}>
-      <h1>Liam Marega</h1>
-      <br />
-      &mdash; Full Stack Developer &mdash;
-      <br />
-      <div className={s.imagen}>
-        <Link to="aboutID" smooth={true} duration={1500}>
-          {" "}
-          <img src={foto} alt="flecha" />{" "}
-        </Link>
-      </div>
+
+    <div className="containerLanding">
+      <h1>Hi, my name is</h1>
+      <h1>Jasmine.</h1>
     </div>
   );
 }

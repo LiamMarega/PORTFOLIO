@@ -1,3 +1,84 @@
+/* NOTE: I only tested this on Google Chrome.*/
+
+.containerLanding {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.containerLanding h1:nth-child(1) {
+  color: #355c7d;
+  font-family: "Fira Code", monospace;
+  font-weight: 800;
+  font-size: 20px;
+  margin: 0 0 0 35%;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 170px;
+  animation: type 2s steps(40, end) forwards;
+}
+
+.containerLanding h1:nth-child(2) {
+  opacity: 0;
+  font-family: "Work Sans", sans-serif;
+  margin: 0 auto auto auto;
+  background: linear-gradient(-45deg, #ff3c00, #ff0062, #00bbff, #00ffc3);
+  font-weight: 800;
+  font-size: 100px;
+  width: 430px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  overflow: hidden;
+  animation: shring-animation 2.2s steps(40, end) 2s forwards,
+    blink 0.5s step-end infinite alternate;
+}
+
+@keyframes shring-animation {
+  0% {
+    background-position: 0 0;
+    opacity: 0;
+    width: 0;
+  }
+  1% {
+    background-position: 0 0;
+    opacity: 1;
+    border-right: 1px solid orange;
+  }
+  50% {
+    background-position: 150px 0;
+    opacity: 1;
+    border-right: 1px solid orange;
+  }
+  100% {
+    background-position: 400px 0;
+    opacity: 1;
+    border-right: 1px solid orange;
+  }
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  1%,
+  99% {
+    border-right: 1px solid orange;
+  }
+  100% {
+    border-right: none;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+
 .landing {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
@@ -36,8 +117,33 @@
   height: 100%;
   display: flex;
   width: 100%;
- align-items: center;
- justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.imagenLanding {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  cursor: pointer;
+  transition: all 0.3s;
+  opacity: 0.50;
+  
+
+}
+
+.imagenLanding img {
+  width: 30px;
+  
+}
+
+.imagenLanding:hover{
+  opacity: 1;
+  cursor: pointer;
 }
 /*# sourceMappingURL=LandingPage.css.map */
 
@@ -47,7 +153,7 @@
   background-size: 400% 400%;
   -webkit-animation: gradient 15s ease infinite;
           animation: gradient 15s ease infinite;
-  height: 150vh;
+  height: 200vh;
   width: 100vh;
 }
 
