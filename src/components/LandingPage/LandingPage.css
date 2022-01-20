@@ -3,7 +3,7 @@
   background-size: 400% 400%;
   -webkit-animation: gradient 15s ease infinite;
           animation: gradient 15s ease infinite;
-  height: 85vh;
+  height: 100vh;
   width: 100%;
   z-index: 2;
 }

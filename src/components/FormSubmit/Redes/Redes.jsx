@@ -46,6 +46,20 @@ function Redes() {
             </span>
           </div>
         </a>
+        <a target="_blank" href="https://api.whatsapp.com/send?phone=5493436203341&text=Hola!%20%F0%9F%91%8B%20Acabo%20de%20ver%20tu%20perfil%20como%20Full%20Stack%20Developer%20y%20me%20interesa%20recibir%20mas%20informaci%C3%B3n!%20">
+          <div className="icon whatsapp">
+            <div className="tooltip">WhatsApp</div>
+            <img
+              src="https://es.logodownload.org/wp-content/uploads/2018/10/whatsapp-logo-11.png"
+              alt="html5"
+              width="40"
+              height="40"
+            />
+            <span>
+              <i className="fab fa-whatsapp"></i>
+            </span>
+          </div>
+        </a>
       </div>
     </div>
   );

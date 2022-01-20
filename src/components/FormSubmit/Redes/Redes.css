@@ -10,7 +10,8 @@
   width: 100%;
   font-family: "Poppins", sans-serif;
   place-items: center;
-
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .Redes img {
@@ -110,5 +111,12 @@
 .wrapper .youtube:hover .tooltip,
 .wrapper .youtube:hover .tooltip::before {
   background-color: #de463b;
+  color: #ffffff;
+}
+
+.wrapper .whatsapp:hover,
+.wrapper .whatsapp:hover .tooltip,
+.wrapper .whatsapp:hover .tooltip::before {
+  background-color: #42ff6b;
   color: #ffffff;
 }
