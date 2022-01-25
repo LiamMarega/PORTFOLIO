@@ -1,5 +1,5 @@
 .Estudios {
-  height: 85vh;
+  height: 105vh;
   background: #c5c5c5;
   display: -ms-grid;
   display: grid;
@@ -37,8 +37,8 @@
 
 @media screen and (max-width: 800px) {
   .Estudios {
-    height: 90vh;
-    width: 100vh;
+    height: 90vmax;
+    width: 100vmax;
     background: #c5c5c5;
     display: -ms-grid;
     display: grid;
