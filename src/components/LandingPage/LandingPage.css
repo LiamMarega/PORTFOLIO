@@ -78,14 +78,13 @@
   }
 }
 
-
 .landing {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
   -webkit-animation: gradient 15s ease infinite;
-          animation: gradient 15s ease infinite;
+  animation: gradient 15s ease infinite;
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   z-index: 2;
 }
 
@@ -131,60 +130,56 @@
   align-content: center;
   cursor: pointer;
   transition: all 0.3s;
-  opacity: 0.50;
-  
-
+  opacity: 0.5;
 }
 
 .imagenLanding img {
   width: 30px;
-  
 }
 
-.imagenLanding:hover{
+.imagenLanding:hover {
   opacity: 1;
   cursor: pointer;
 }
 /*# sourceMappingURL=LandingPage.css.map */
 
-@media screen and (max-width: 800px) { 
+@media screen and (max-width: 800px) {
   .landing {
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  background-size: 400% 400%;
-  -webkit-animation: gradient 15s ease infinite;
-          animation: gradient 15s ease infinite;
-  height: 200vh;
-  width: 100vh;
-}
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    -webkit-animation: gradient 15s ease infinite;
+    animation: gradient 15s ease infinite;
+    height: 100vmax;
+    width: 100vmax;
+  }
 
-@-webkit-keyframes gradient {
-  0% {
-    background-position: 0% 50%;
+  @-webkit-keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
   }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
 
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
   }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
 
-.landig__nombre {
-  height: 100%;
-  display: flex;
-  width: 100%;
- 
-}
+  .landig__nombre {
+    height: 100%;
+    display: flex;
+    width: 100%;
+  }
 }
