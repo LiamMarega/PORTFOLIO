@@ -1,9 +1,9 @@
 .ComponenteVacio {
-  width: 100%;
-  height: 100vh;
+  width: 100vmax;
+  height: 140vmax;
    z-index: -4;
    display: flex;
-   background-color: aqua;
+   background-color: rgba(0, 255, 255, 0);
    position: absolute;
 }
 
