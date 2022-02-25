@@ -57,6 +57,10 @@
   animation-duration: 8s;
 }
 
+.especificaciones p b {
+  text-align: justify;
+}
+
 .especificaciones > img {
   margin-top: 2vh;
   margin-left: 1vh;
