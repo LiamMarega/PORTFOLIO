@@ -6,7 +6,7 @@
 
 .About {
   width: 100vw;
-  height: 100%;
+  height: 100vh;
   background: #d9d9d9;
   display: -ms-grid;
   display: grid;
@@ -50,7 +50,12 @@
   -ms-flex-align: center;
   align-items: center;
   margin-top: 10vh;
-  font-size: 30px;
+  font-size: 6vmin;
+}
+
+.textoPresentacion h3{
+  font-size: 6vmin;
+
 }
 
 .especificaciones > h2 {
@@ -219,6 +224,11 @@
     -ms-flex-align: center;
     align-items: center;
     margin-top: 15vh;
+  }
+
+  .textoPresentacion h3{
+    font-size: 10vmin;
+  
   }
 
   .especificaciones > h2 {

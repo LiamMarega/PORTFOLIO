@@ -20,9 +20,9 @@ function About() {
         <div className={s.textoCentrado}>
           <h3 className="animate__jello">
             ¡Hola! 👋 Soy Liam Marega soy residente de Argentina y actual Full Stack
-            Developer con +1000 Hs de experiencia en el bootcamp de SoyHenry.
+            Developer con mas de 6 meses de experiencia en el bootcamp de SoyHenry.
             Manejo todo el Stack Mern de JavaScript y me adapto con facilidad al
-            uso de nuevas tecnologías. 😊
+            uso de nuevas tecnologías y me adapto muy rapido a entornos nuevos. 😊
           </h3>
         </div>
       </div>
@@ -35,10 +35,15 @@ function About() {
               <li>Diseño web y gráfico</li>
               <li>Investigación en experiencia del usuario</li>
               <li>Manejo de lenguajes de programación </li>
+              <li>Marketing Digital </li>
+              <li>Diseño UX/UI</li>
             </ul>
+            <br />
             <p>
-              Javascript, Git, React.js, Redux, HTML, CSS, NodeJs, Express,
-              Postman, PostgreSQL, Sequelize, Webpack, Babel
+              <b>
+              Javascript - Git React.js - Redux - HTML - CSS - NodeJs - Express -
+              Postman - PostgreSQL - Sequelize - Webpack - Babel
+              </b>
             </p>
             <img
               src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
