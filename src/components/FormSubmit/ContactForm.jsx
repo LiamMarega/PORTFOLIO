@@ -1,6 +1,6 @@
 import React from "react";
 import s from "./ContactForm.module.css";
-import cv from "./cv.pdf";
+import cv from "./CVLIAMMAREGA.pdf"
 import Redes from "./Redes/Redes.jsx"
 function ContactForm() {
   return (
